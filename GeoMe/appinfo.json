@@ -1,0 +1,65 @@
+{
+  "uuid": "3453a1d5-1ecd-49d7-bf30-4d6ffff83c0b",
+  "shortName": "GeoMe",
+  "longName": "GeoMe",
+  "companyName": "GeoMe",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "capabilities": [ "configurable" ],
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "fetchContactsKey": 1,
+    "fetchContactsErrorKey": 2,
+    "contactsCountKey": 3,
+      
+    "contactIdKey": 4,
+    "contactNameKey": 5,
+     
+    "determineLocationKey": 6,
+    "locationDeterminedKey": 7,
+    "locationDeterminationErrorKey": 8,
+      
+    "sendLocationKey": 9,
+    "locationSentKey": 10,
+    "locationSendingErrorKey": 11,
+
+    "authorizationWorkflowKey": 12
+  },
+  "resources": {
+    "media": [
+      {
+        "type": "png",
+        "name": "IMAGE_GEOME_MENU_LOGO",
+        "file": "images/geome_menu_logo.png",
+        "menuIcon": true
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_GEOME_WINDOW_LOGO",
+        "file": "images/geome_window_logo.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_SAND_WATCH",
+        "file": "images/sand_watch.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_ERROR",
+        "file": "images/warning.png"
+      },
+      {
+        "type": "png",
+        "name": "IMAGE_CHECK_MARK",
+        "file": "images/check_mark.png"
+      },
+      {
+        "type": "font",
+        "name": "FONT_HATTORI_HANZO_26",
+        "file": "fonts/HATTORI-HANZO_26.ttf"
+      }
+    ]
+  }
+}
